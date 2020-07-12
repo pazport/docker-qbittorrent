@@ -38,6 +38,7 @@ RUN \
 	unrar \
 	geoip-bin \
 	unzip && \
+	apt-get update && \
  echo "**** cleanup ****" && \
  apt-get clean && \
  rm -rf \
